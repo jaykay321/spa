@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-spa';
+
+  public constructor(private titleService: Title ) { }
+
+  public setTitle( newTitle: string) {
+    this.titleService.setTitle( newTitle );
+  }
+
+  ngOnInit() {
+    this.setTitle(this.title);
+  }
+
 }
