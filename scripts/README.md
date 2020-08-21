@@ -24,5 +24,5 @@ The script contains following files:
   * `-h or --help` - displays main usage information
 3. During running of script user will be asked to provide password to DockerHub
 4. The application should be available directly from host on:
-	[http://localhost:4224](http://localhost:4244)
+	[http://localhost:4224](http://localhost:4224)
 
